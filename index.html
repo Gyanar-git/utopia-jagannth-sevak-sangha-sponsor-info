@@ -267,7 +267,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
                 <div class="card flex flex-col border-t-4 border-red-600">
                     <h3 class="text-2xl font-bold mb-3 text-red-600">💎 Diamond</h3>
-                    <p class="text-3xl font-bold mb-4 text-gray-800">₹1.5 Lakh</p>
+                    <p class="text-3xl font-bold mb-4 text-gray-800">₹1 Lakh</p>
                     <ul class="space-y-2 text-gray-700 text-left mb-6 flex-grow">
                         <li class="benefit-item"><span class="benefit-icon">✓</span>Premier 10x12ft Banner</li>
                         <li class="benefit-item"><span class="benefit-icon">✓</span>Digital Screen Feature</li>
@@ -285,7 +285,7 @@
 
                 <div class="card flex flex-col border-t-4 border-amber-500">
                     <h3 class="text-2xl font-bold mb-3 text-amber-500">🌟 Gold</h3>
-                    <p class="text-3xl font-bold mb-4 text-gray-800">₹1.25 Lakh</p>
+                    <p class="text-3xl font-bold mb-4 text-gray-800">₹75,000</p>
                     <ul class="space-y-2 text-gray-700 text-left mb-6 flex-grow">
                         <li class="benefit-item"><span class="benefit-icon">✓</span>Prominent 8x10ft Banner</li>
                         <li class="benefit-item"><span class="benefit-icon">✓</span>Invites & Pamphlets (2500+ homes)</li>
@@ -301,7 +301,7 @@
 
                 <div class="card flex flex-col border-t-4 border-emerald-500">
                     <h3 class="text-2xl font-bold mb-3 text-emerald-500">🥈 Silver</h3>
-                    <p class="text-3xl font-bold mb-4 text-gray-800">₹1 Lakh</p>
+                    <p class="text-3xl font-bold mb-4 text-gray-800">₹50,000</p>
                     <ul class="space-y-2 text-gray-700 text-left mb-6 flex-grow">
                         <li class="benefit-item"><span class="benefit-icon">✓</span>Visible 6x8ft Banner</li>
                         <li class="benefit-item"><span class="benefit-icon">✓</span>Invites & Pamphlets (2500+ homes)</li>
@@ -315,7 +315,7 @@
                 </div>
 
                 <div class="card flex flex-col border-t-4 border-sky-500"> <h3 class="text-2xl font-bold mb-3 text-sky-500">🥉 Bronze</h3>
-                    <p class="text-3xl font-bold mb-4 text-gray-800">₹75,000</p>
+                    <p class="text-3xl font-bold mb-4 text-gray-800">₹25,000</p>
                     <ul class="space-y-2 text-gray-700 text-left mb-6 flex-grow">
                         <li class="benefit-item"><span class="benefit-icon">✓</span>4x4ft Banner Display</li>
                         <li class="benefit-item"><span class="benefit-icon">✓</span>Invites & Pamphlets (2500+ homes)</li>
@@ -381,7 +381,7 @@
             <div class="bg-white text-gray-800 p-8 rounded-lg shadow-xl max-w-lg mx-auto">
                 <h3 class="text-2xl font-bold mb-4 text-red-600">Contact Us for Sponsorship</h3>
                 <p class="mb-2"><span class="font-semibold">Organization:</span> Utopia Jagannath Sevak Sangha</p>
-                <p class="mb-2"><span class="font-semibold">Contact Person:</span> [Your Name / Team Name]</p>
+                <p class="mb-2"><span class="font-semibold">Contact Person:</span> Jagannth Sangha Team</p>
                 <p class="mb-2"><span class="font-semibold">Phone:</span> <a href="tel:+919739973156" class="text-amber-600 hover:underline">+91 9739973156</a></p>
                 <p class="mb-4"><span class="font-semibold">Email:</span> <a href="mailto:utopiajagannathsevaksangha@gmail.com" class="text-amber-600 hover:underline">utopiajagannathsevaksangha@gmail.com</a></p>
                 
@@ -448,7 +448,7 @@
                 labels: ['Bronze', 'Silver', 'Gold', 'Diamond'].map(label => wrapLabels(label, 16)),
                 datasets: [{
                     label: 'Investment (INR Lakhs)',
-                    data: [0.75, 1.00, 1.25, 1.50],
+                    data: [0.25, 0.50, 0.75, 1.00], // Updated data for 25k, 50k, 75k, 1 lakh
                     backgroundColor: ['#0EA5E9', '#10B981', '#F59E0B', '#EF4444'],
                     borderColor: ['#0284C7', '#059669', '#D97706', '#DC2626'],
                     borderWidth: 1
@@ -565,7 +565,7 @@
         });
         
         function copyContactInfo() {
-            const contactText = `Organization: Utopia Jagannath Sevak Sangha\nContact Person: [Your Name / Team Name]\nPhone: +91 9739973156\nEmail: utopiajagannathsevaksangha@gmail.com`;
+            const contactText = `Organization: Utopia Jagannath Sevak Sangha\nContact Person: Jagannth Sangha Team\nPhone: +91 9739973156\nEmail: utopiajagannathsevaksangha@gmail.com`;
             const textArea = document.createElement('textarea');
             textArea.value = contactText;
             document.body.appendChild(textArea);
